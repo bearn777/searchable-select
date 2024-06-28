@@ -1,6 +1,6 @@
 <?php
 
-namespace Sloveniangooner\SearchableSelect\Http\Controllers;
+namespace Kfriars\SearchableSelect\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\ResourceIndexRequest;

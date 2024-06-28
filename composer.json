@@ -1,5 +1,5 @@
 {
-    "name": "sloveniangooner/searchable-select",
+    "name": "kfriars/searchable-select",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -11,13 +11,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Sloveniangooner\\SearchableSelect\\": "src/"
+            "Kfriars\\SearchableSelect\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Sloveniangooner\\SearchableSelect\\FieldServiceProvider"
+                "Kfriars\\SearchableSelect\\FieldServiceProvider"
             ]
         }
     },

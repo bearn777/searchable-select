@@ -15,7 +15,7 @@ are needed. This means, you can use it also in additional JSON fields in your da
 _Composer_
 
 ```
-composer require sloveniangooner/searchable-select
+composer require kfriars/searchable-select
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Just like the regular select field, but instead of the `options` method you prov
 with your resource name.
 
 ```php
-use Sloveniangooner\SearchableSelect\SearchableSelect;
+use Kfriars\SearchableSelect\SearchableSelect;
 ...
 
 SearchableSelect::make('Content', 'content_id')->resource("contents")
