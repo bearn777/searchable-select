@@ -1,11 +1,11 @@
 <?php
 
-namespace Kfriars\SearchableSelect;
+namespace Bearn777\SearchableSelect;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Events\ServingNova;
 use Illuminate\Support\ServiceProvider;
-use Kfriars\SearchableSelect\Http\Middleware\Authorize;
+use Bearn777\SearchableSelect\Http\Middleware\Authorize;
 use Route;
 
 class FieldServiceProvider extends ServiceProvider

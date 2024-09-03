@@ -1,6 +1,6 @@
 <?php
 
-namespace Kfriars\SearchableSelect;
+namespace Bearn777\SearchableSelect;
 
 use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Nova;
@@ -105,7 +105,7 @@ class SearchableSelect extends Select
             "loadResourcesOnNew" => true
         ]);
     }
-    
+
     public function useBaseSearch($useBaseSearch = true)
     {
         return $this->withMeta([

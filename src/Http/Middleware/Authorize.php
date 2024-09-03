@@ -1,6 +1,6 @@
 <?php
 
-namespace Kfriars\SearchableSelect\Http\Middleware;
+namespace Bearn777\SearchableSelect\Http\Middleware;
 
 class Authorize
 {

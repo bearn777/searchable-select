@@ -1,6 +1,6 @@
 <?php
 
-namespace Kfriars\SearchableSelect\Http\Controllers;
+namespace Bearn777\SearchableSelect\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\ResourceIndexRequest;
@@ -33,7 +33,7 @@ class SearchableSelectController extends Controller
         if ($request->has("max")) {
             $items = $items->take($request->get("max"));
         }
-    
+
         if (!$searchable) { // Don't apply the relatableQuery if not searchable, it won't handle it
             $request->resource()::relatableQuery($request, $items);
         }
